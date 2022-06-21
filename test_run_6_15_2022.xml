@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R2</id>
+	<name>Test Run 6/15/2022</name>
+	<description></description>
+	<config></config>
+	<createdon>2022-06-15T21:10:31Z</createdon>
+		<completed>true</completed>
+	<completedon>2022-06-15T21:26:05Z</completedon>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>73</percent>
+			<count>8</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>27</percent>
+			<count>3</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>регистрация yourlogo</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T2</id>
+				<title>тест кейс для формы авторизации при вводе валидного имейл</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим валидный электронный адрес alinainf@yandex.ru в строке создать аккаунт
+нажимаем на поле создать аккаунт
+</steps>
+										<expected>в поле электронный адрес отобразился имейл	
+поле имейл окрашивается в зеленый, справа появляется галочка и автоматически открывается страница регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation           </expected>
+									</custom>
+												<caseid>C15</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:13:55Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T12</id>
+				<title>тест кейс для формы авторизации при вводе валидного имейл с цифрами и символами</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим валидный электронный адрес alinainf-123@yan-1dex.ru в строке создать аккаунт
+нажимаем на поле создать аккаунт
+</steps>
+										<expected>в поле электронный адрес отобразился имейл	
+поле имейл окрашивается в зеленый, справа появляется галочка и автоматически открывается страница регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation           </expected>
+									</custom>
+												<caseid>C25</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:14:58Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T3</id>
+				<title>тест кейс для формы авторизации при вводе имейл на кириллице</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим электронный адрес ляля@тополя.ру в строке создать аккаунт
+нажимаем на поле создать аккаунт
+</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;     
+</expected>
+									</custom>
+												<caseid>C16</caseid>
+																<status>Failed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:17:01Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>данный имейл считывается как валидный, при вводе имейл на кириллице поле подсвечивается зеленым и при нажатии на кнопку создать аккаунт открывается форма регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T4</id>
+				<title>тест кейс для формы авторизации при вводе имейл с превышающим количеством символов</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим электронный адрес alinainf@123456789123456789123456789132456789123456789123456789123456789123.ru (78 символов, более 63 в имени хоста) в строке создать аккаунт
+нажимаем на поле создать аккаунт</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C17</caseid>
+																<status>Failed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:18:04Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>данный имейл считывается как валидный, при вводе имейл с превышающим количеством символов поле подсвечивается зеленым и при нажатии на кнопку создать аккаунт открывается форма регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T5</id>
+				<title>тест кейс для формы авторизации при вводе имейл, состоящего исключительно из символов</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим электронный адрес *@).! в строке создать аккаунт
+нажимаем на поле создать аккаунт
+
+</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C18</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:19:21Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T6</id>
+				<title>тест кейс для формы авторизации при вводе имейл, начинающегося с точки</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито
+
+
+
+
+</preconds>
+										<steps>вводим электронный адрес .alinainf@-yandex.ru в строке создать аккаунт
+нажимаем на поле создать аккаунт</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C19</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:19:36Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T7</id>
+				<title>тест кейс для формы авторизации при вводе имейл, заканчивающегося символом</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито
+
+
+
+
+</preconds>
+										<steps>вводим электронный адрес alinainf@yandex.ru/ в строке создать аккаунт
+нажимаем на поле создать аккаунт
+
+</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C20</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:20:35Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T8</id>
+				<title>тест кейс для формы авторизации при вводе имейл, состоящего из цифр и символов</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито
+
+
+
+
+</preconds>
+										<steps>вводим электронный адрес 1@2.3 в строке создать аккаунт
+нажимаем на поле создать аккаунт</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C21</caseid>
+																<status>Failed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:21:23Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>данный имейл считывается как валидный, при вводе имейл поле подсвечивается зеленым и при нажатии на кнопку создать аккаунт открывается форма регистрации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T9</id>
+				<title>тест кейс для формы авторизации при вводе имейл с дефисом в начале имени хоста</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+Пользователь кликнул на поле эл. адрес
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито
+
+
+
+
+</preconds>
+										<steps>вводим электронный адрес alinainf@-yandex.ru в строке создать аккаунт
+нажимаем на поле создать аккаунт</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C22</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:22:38Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T10</id>
+				<title>тест кейс для формы авторизации при вводе имейл, состоящего исключительно из букв</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+Пользователь кликнул на поле эл. адрес
+
+
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>вводим электронный адрес pampam в строке создать аккаунт
+нажимаем на поле создать аккаунт
+
+</steps>
+										<expected>в поле электронный адрес отобразился имейл
+поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C23</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:22:48Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T11</id>
+				<title>тест кейс для формы авторизации при отсутствии заполнения поля имейл</title>
+												<template>Test Case (Text)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<automation_type><id>0</id><value> None</value></automation_type>
+										<preconds>Пользователь находится на стартовой странице аутентификации http://automationpractice.com/index.php?controller=authentication&amp;back=my-account
+
+
+
+Пользователь кликнул на поле эл. адрес
+
+
+
+в браузере яндекс Версия 22.5.2.615 (64-bit) в  режиме инкогнито</preconds>
+										<steps>оставляем поле электронный адрес пустым
+нажимаем на поле создать аккаунт</steps>
+										<expected>поле имейл окрашивается в красный, справа появляется крестик и появляется надпись &quot;Неверный адрес электронной почты.&quot;    </expected>
+									</custom>
+												<caseid>C24</caseid>
+																<status>Passed</status>
+																<assignedto>Alina Shumarina</assignedto>
+																<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-06-15T21:22:56Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-06-15T21:10:31Z</createdon>
+																		<createdby>Alina Shumarina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+</run>
